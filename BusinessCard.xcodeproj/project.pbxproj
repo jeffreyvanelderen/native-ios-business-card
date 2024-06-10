@@ -11,6 +11,8 @@
 		CD0DD86C2C170B4D008E493A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0DD86B2C170B4D008E493A /* ContentView.swift */; };
 		CD0DD86E2C170B4E008E493A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0DD86D2C170B4E008E493A /* Assets.xcassets */; };
 		CD0DD8722C170B4E008E493A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0DD8712C170B4E008E493A /* Preview Assets.xcassets */; };
+		CD0DD87A2C170DBA008E493A /* Tiny5-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD0DD8792C170DBA008E493A /* Tiny5-Regular.ttf */; };
+		CD5949DD2C17329400A7BA94 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5949DC2C17329400A7BA94 /* ActionButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		CD0DD86D2C170B4E008E493A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD0DD86F2C170B4E008E493A /* BusinessCard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BusinessCard.entitlements; sourceTree = "<group>"; };
 		CD0DD8712C170B4E008E493A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD0DD8792C170DBA008E493A /* Tiny5-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tiny5-Regular.ttf"; sourceTree = "<group>"; };
+		CD5949DC2C17329400A7BA94 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,10 @@
 		CD0DD8682C170B4D008E493A /* BusinessCard */ = {
 			isa = PBXGroup;
 			children = (
+				CD0DD8782C170DA6008E493A /* Fonts */,
 				CD0DD8692C170B4D008E493A /* BusinessCardApp.swift */,
 				CD0DD86B2C170B4D008E493A /* ContentView.swift */,
+				CD5949DC2C17329400A7BA94 /* ActionButton.swift */,
 				CD0DD86D2C170B4E008E493A /* Assets.xcassets */,
 				CD0DD86F2C170B4E008E493A /* BusinessCard.entitlements */,
 				CD0DD8702C170B4E008E493A /* Preview Content */,
@@ -67,6 +73,14 @@
 				CD0DD8712C170B4E008E493A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD0DD8782C170DA6008E493A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CD0DD8792C170DBA008E493A /* Tiny5-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD0DD8722C170B4E008E493A /* Preview Assets.xcassets in Resources */,
+				CD0DD87A2C170DBA008E493A /* Tiny5-Regular.ttf in Resources */,
 				CD0DD86E2C170B4E008E493A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +156,7 @@
 			files = (
 				CD0DD86C2C170B4D008E493A /* ContentView.swift in Sources */,
 				CD0DD86A2C170B4D008E493A /* BusinessCardApp.swift in Sources */,
+				CD5949DD2C17329400A7BA94 /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
